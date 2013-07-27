@@ -1,55 +1,37 @@
-exports.test_cache = function(done)
-{
-	try
-	{
-		throw 'test not implemented';
-		
-		done(null, 'cache test passed');
-	}
-	catch(e)
-	{
-		done(null, 'cache test failed: ' + e);
-	}
-}
+var assert = require("assert");
 
-exports.test_session = function(done)
-{
-	try
-	{
-		throw 'test not implemented';
-		
-		done(null, 'test_session test passed');
-	}
-	catch(e)
-	{
-		done(null, 'test_session test failed: ' + e);
-	}
-}
+describe('plugin-test', function(){
 
-exports.test_data = function(done)
-{
-	try
-	{
-		throw 'test not implemented';
-		
-		done(null, 'test_data test passed');
-	}
-	catch(e)
-	{
-		done(null, 'test_data test failed: ' + e);
-	}
-}
+	it('test_cache', function(callback){
 
-exports.test_auth = function(done)
-{
-	try
-	{
-		throw 'test not implemented';
-		
-		done(null, 'test_auth test passed');
-	}
-	catch(e)
-	{
-		done(null, 'test_auth test failed: ' + e);
-	}
-}
+		assert.fail();
+
+		callback();
+
+	});
+
+	it('test_session', function(callback){
+
+		assert.fail();
+
+		callback();
+
+	});
+
+	it('test_data', function(callback){
+
+		assert.fail();
+
+		callback();
+
+	});
+
+	it('test_auth', function(callback){
+
+		assert.fail();
+
+		callback();
+
+	});
+
+});
