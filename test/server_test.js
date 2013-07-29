@@ -1,17 +1,9 @@
 var request = require('request');
-var assert = require("assert");
+var assert = require('assert');
 
-describe('server-test', function(){
+suite('server-test', function(){
 
-	it('testCreateAccount', function(callback){
-
-		assert.fail('test not implemented');
-
-		callback();
-
-	});
-
-	it('testLogin', function(callback){
+	test('testCreateAccount', function(callback){
 
 		assert.fail('test not implemented');
 
@@ -19,7 +11,7 @@ describe('server-test', function(){
 
 	});
 
-	it('testCreateData', function(callback){
+	test('testLogin', function(callback){
 
 		assert.fail('test not implemented');
 
@@ -27,7 +19,7 @@ describe('server-test', function(){
 
 	});
 
-	it('testGetData', function(callback){
+	test('testCreateData', function(callback){
 
 		assert.fail('test not implemented');
 
@@ -35,7 +27,7 @@ describe('server-test', function(){
 
 	});
 
-	it('testFindData', function(callback){
+	test('testGetData', function(callback){
 
 		assert.fail('test not implemented');
 
@@ -43,7 +35,7 @@ describe('server-test', function(){
 
 	});
 
-	it('testUpdateData', function(callback){
+	test('testFindData', function(callback){
 
 		assert.fail('test not implemented');
 
@@ -51,7 +43,15 @@ describe('server-test', function(){
 
 	});
 
-	it('testDeleteData', function(callback){
+	test('testUpdateData', function(callback){
+
+		assert.fail('test not implemented');
+
+		callback();
+
+	});
+
+	test('testDeleteData', function(callback){
 
 		assert.fail();
 
@@ -59,7 +59,7 @@ describe('server-test', function(){
 
 	});
 
-	it('testCreateGuest', function(callback){
+	test('testCreateGuest', function(callback){
 
 		assert.fail('test not implemented');
 
@@ -67,7 +67,7 @@ describe('server-test', function(){
 
 	});
 
-	it('testGuestInsufficientPriviledges', function(callback){
+	test('testGuestInsufficientPriviledges', function(callback){
 
 		assert.fail('test not implemented');
 
@@ -75,7 +75,7 @@ describe('server-test', function(){
 
 	});
 
-	it('testGetPermissions', function(callback){
+	test('testGetPermissions', function(callback){
 
 		assert.fail('test not implemented');
 

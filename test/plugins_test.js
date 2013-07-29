@@ -1,8 +1,8 @@
-var assert = require("assert");
+var assert = require('assert');
 
-describe('plugin-test', function(){
+suite('plugin-test', function(){
 
-	it('test_cache', function(callback){
+	test('test_cache', function(callback){
 
 		assert.fail('test_cache not implemented');
 
@@ -10,7 +10,7 @@ describe('plugin-test', function(){
 
 	});
 
-	it('test_session', function(callback){
+	test('test_session', function(callback){
 
 		assert.fail('test_session not implemented');
 
@@ -18,7 +18,7 @@ describe('plugin-test', function(){
 
 	});
 
-	it('test_data', function(callback){
+	test('test_data', function(callback){
 
 		assert.fail('test_data not implemented');
 
@@ -26,7 +26,7 @@ describe('plugin-test', function(){
 
 	});
 
-	it('test_auth', function(callback){
+	test('test_auth', function(callback){
 
 		assert.fail('test_auth not implemented');
 
