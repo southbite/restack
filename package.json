@@ -1,5 +1,5 @@
 {
-  "name": "RESTack",
+  "name": "restack",
   "description": "A REST api built for NodeJS",
   "version": "0.0.1",
   "dependencies": {

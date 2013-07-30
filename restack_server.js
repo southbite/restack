@@ -15,4 +15,3 @@ restack.initialize({}, function(e){
 		console.log('restack failed to initialize: ' + e);
 	
 });
-
