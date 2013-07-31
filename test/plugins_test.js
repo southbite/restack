@@ -18,13 +18,6 @@ describe('plugin-test', function(){
 
 	});
 
-	it('test_data', function(callback){
-
-		assert.fail('test_data not implemented');
-
-		callback();
-
-	});
 
 	it('test_auth', function(callback){
 

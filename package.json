@@ -1,5 +1,5 @@
 {
-  "name": "RESTack",
+  "name": "restack",
   "description": "A REST api built for NodeJS",
   "version": "0.0.1",
   "dependencies": {
@@ -10,9 +10,8 @@
     "jugglingdb": "~0.2.0-35"
   },
   "devDependencies": {
-
-    "mocha": "~1.12.0"
-
+    "mocha": "~1.12.0",
+    "expect.js": "~0.2.0"
   },
   "main": "index.js",
   "scripts": {
