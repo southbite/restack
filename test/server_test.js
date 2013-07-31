@@ -1,85 +1,64 @@
 var request = require('request');
-var assert = require("assert");
 
 describe('server-test', function(){
 
-	it('testCreateAccount', function(callback){
+	it.skip('testCreateAccount', function(callback){
 
-		assert.fail('test not implemented');
-
-		callback();
+		callback(new Error('test not implemented'));
 
 	});
 
-	it('testLogin', function(callback){
+	it.skip('testLogin', function(callback){
 
-		assert.fail('test not implemented');
-
-		callback();
+		callback(new Error('test not implemented'));
 
 	});
 
-	it('testCreateData', function(callback){
+	it.skip('testCreateData', function(callback){
 
-		assert.fail('test not implemented');
-
-		callback();
+		callback(new Error('test not implemented'));
 
 	});
 
-	it('testGetData', function(callback){
+	it.skip('testGetData', function(callback){
 
-		assert.fail('test not implemented');
-
-		callback();
+		callback(new Error('test not implemented'));
 
 	});
 
-	it('testFindData', function(callback){
+	it.skip('testFindData', function(callback){
 
-		assert.fail('test not implemented');
-
-		callback();
+		callback(new Error('test not implemented'));
 
 	});
 
-	it('testUpdateData', function(callback){
+	it.skip('testUpdateData', function(callback){
 
-		assert.fail('test not implemented');
-
-		callback();
+		callback(new Error('test not implemented'));
 
 	});
 
-	it('testDeleteData', function(callback){
+	it.skip('testDeleteData', function(callback){
 
-		assert.fail();
-
-		callback();
+		callback(new Error());
 
 	});
 
-	it('testCreateGuest', function(callback){
+	it.skip('testCreateGuest', function(callback){
 
-		assert.fail('test not implemented');
-
-		callback();
+		callback(new Error('test not implemented'));
 
 	});
 
-	it('testGuestInsufficientPriviledges', function(callback){
+	it.skip('testGuestInsufficientPriviledges', function(callback){
 
-		assert.fail('test not implemented');
-
-		callback();
+		callback(new Error('test not implemented'));
 
 	});
 
-	it('testGetPermissions', function(callback){
+	it.skip('testGetPermissions', function(callback){
 
-		assert.fail('test not implemented');
-
-		callback();
+		callback(new Error('test not implemented'));
 
 	});
 
